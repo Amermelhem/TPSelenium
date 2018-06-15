@@ -45,11 +45,12 @@ public class LibraryTest {
         
         Assert.assertEquals("FIFA World Cup", title.getText());
         //Assert.assertTrue(title.isDisplayed());
-
 		
+	}
+	@Test
+	public void testfail() {
 		
-		
-		
+		Assert.fail();
 	}
 	
 	
